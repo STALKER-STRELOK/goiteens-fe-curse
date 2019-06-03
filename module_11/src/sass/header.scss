@@ -1,0 +1,45 @@
+
+// пример использования переменной (variables):
+$title-color: rgb(50, 102, 161);
+
+// пример использования шаблона (placeholder):
+%style-text {
+  color: $title-color;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  text-align: center;
+}
+
+// пример миксина (mixin):
+@mixin main-place($place) {
+  text-align: $place;
+}
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(221, 211, 211);
+
+  &__title {
+    font-size: 30px;
+
+    // подключение шаблона (placeholder):
+    @extend %style-text;
+
+    // подключение миксина (mixin):
+    @include main-place(left);
+  }
+
+  &__subtitle {
+    // подключение шаблона (placeholder):
+    @extend %style-text;
+
+    // подключение миксина (mixin):
+    @include main-place(right);
+  }
+
+  &__article {
+    // подключение шаблона (placeholder):
+    @extend %style-text;
+  }
+}

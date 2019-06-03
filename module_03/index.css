@@ -6,7 +6,6 @@
 .color{
     width: 100%;
     height: 100vh;
-     /* background-image: radial-gradient(circle at center, rgb(218, 217, 157), #1cc433); */
 }
 
 .link {
@@ -25,8 +24,8 @@ img, span {
 }
 
 .navigation {
-    margin-top: 80px;
-    margin-bottom: 105px;
+    margin-top: 75px;
+    margin-bottom: 104px;
     text-align: center;
 }
 .navigation li{
@@ -36,23 +35,21 @@ img, span {
     margin-left: 60px; 
 }
 
-.f1{ 
+.f{ 
     margin-top: 80px;
     margin-bottom: 105px;
     margin-left: 100px; 
-    text-align: right;
 }
 .section{
     display:inline-block;
     width: 422px; 
     margin: 7px;
-    margin-top: 80px;
     margin-bottom: 105px;
     margin-left: 200px;
-    padding: 10px; 
+    padding: 1px; 
 }
 .f2{
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     text-align: left;
@@ -85,6 +82,49 @@ img, span {
     text-align: center;
 }
 
+footer{
+    height: 186px;
+    width: 1519.200px;
+}
+
 .LM{
-    text-align: center;
+    border: 2px solid #626262; 
+    background: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 77px;
+    margin-bottom: 77px;
+    margin-left: 649.6px;
+    margin-right: 649.6px;
+}
+
+p{
+    margin-top: 41px;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(98, 98, 98, 255);
+}
+
+h2{
+    margin-top: 31px;
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 25pt;
+    color: rgba(98, 98, 98, 255);
+    font-weight: 400;
+}
+
+span{
+    margin-top: 31px;
+    font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-weight: 300;
+    color: rgba(180, 173, 158, 255);
+}
+
+a{
+    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    font-weight: 300px;
+    color: rgba(98, 98, 98, 255);
 }

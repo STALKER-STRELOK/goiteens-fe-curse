@@ -1,0 +1,13 @@
+.bgi{
+    width: 400px;
+    height: 300px;
+    background: url(../IMG/category-2@1Xpng);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192pi){
+
+
+.bgi {
+    background: url(../IMG/category-4@2X.png)
+}
+}
