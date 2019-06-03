@@ -40,6 +40,7 @@ img, span {
     margin-bottom: 105px;
     margin-left: 100px; 
 }
+
 .section{
     display:inline-block;
     width: 422px; 
@@ -102,29 +103,34 @@ footer{
 
 p{
     margin-top: 41px;
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: 'Playfair Display', serif;
     font-size: 14pt;
-    color: rgba(98, 98, 98, 255);
+    color: #626262;
 }
 
 h2{
     margin-top: 31px;
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: 'Playfair Display', serif;
     font-size: 25pt;
-    color: rgba(98, 98, 98, 255);
+    color: #626262;
     font-weight: 400;
 }
 
 span{
     margin-top: 31px;
-    font-family: Ubuntu-Light, AdobeInvisFont, MyriadPro-Regular;
+    font-family: 'Ubuntu', sans-serif;;
     font-weight: 300;
-    color: rgba(180, 173, 158, 255);
+    color: #626262;
 }
 
 a{
-    font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-family: 'Playfair Display', serif;
     font-size: 14pt;
     font-weight: 300px;
-    color: rgba(98, 98, 98, 255);
+    color: #626262;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #03a9f4;
 }
