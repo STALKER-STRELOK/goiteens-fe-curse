@@ -19,7 +19,7 @@
     text-decoration: none;
 }
 
-img, span {
+img, h1 {
     display: block;
 }
 
@@ -49,6 +49,14 @@ img, span {
     margin-left: 200px;
     padding: 1px; 
 }
+
+.f1{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 0px; 
+    text-align: center;
+}
+
 .f2{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -116,7 +124,7 @@ h2{
     font-weight: 400;
 }
 
-span{
+h1{
     margin-top: 31px;
     font-family: 'Ubuntu', sans-serif;;
     font-weight: 300;
@@ -133,4 +141,9 @@ a{
 
 a:hover{
     color: #03a9f4;
+}
+
+.head_contanier{
+    width: 900px;
+    margin: 0 auto;
 }

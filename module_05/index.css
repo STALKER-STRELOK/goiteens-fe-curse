@@ -4,7 +4,7 @@
   }
   
   .header-container {
-    width: 1600px;
+    width: 1519px;
     height: 91px;
     margin: 0 auto;
   }
@@ -33,7 +33,7 @@
     margin-top: 34px;
     margin-bottom: 34px;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
   }
   
@@ -46,43 +46,54 @@
   }
 
 .content{
-  width: 1600px;
-  height: 590px; 
+  /*width: 1515px; 
+  height: 590px;*/
   background-image: url(./img/slide4@1X.png);
   padding: 5px;
   border: solid 1px white; 
+  padding-top: 267px;
+  padding-bottom: 267px;
+  background-repeat: no-repeat;
 }
 
 .tour{
+  width: 900px;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: white;
   font-size: 30pt;
   text-align: center;
-  margin-top: 267px;
-  margin-bottom: 267px;
+  position: relative;
 }
 
-.tour:before {
+/*.tour:before {
+  position: absolute;
+  top: 0;
+  left: -20px;
   content: "<";
-  height: 104px;
-  width: 104px;
+  height: 102px;
+  width: 102px;
   background: #54a18f; 
   border: solid 1px rgba(255, 255, 255, 0); 
 }
 
 .tour:after {
+  position: absolute;
+  top: 0;
+  right: 20px;
   content: ">";
-  height: 104px;
-  width: 104px;
+  height: 102px;
+  width: 102px;
   background: #54a18f; 
   border: solid 1px rgba(255, 255, 255, 0); 
-}
+} */
  
 .mid{
-  width: 1600px;
+  width: 1519px;
   height: 676px;
   background-color: #e9f0fd;
+  position: relative;
 }
 
 .name{
@@ -94,9 +105,20 @@
   padding: 101px;
 }
   
+.name:after{
+  content:"";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 30px 0 20px 0;
+  margin-left: 580px;
+  
+}
+
 footer{
   background-color: #323232;
-  width: 1600px;
+  width: 1519px;
   height: 88px;
   padding: 1px;
 }
@@ -114,3 +136,151 @@ footer{
   content: "ThemenGraph";
   color: #46bfa9;
 }
+
+.nav{
+  text-decoration: none;
+  color: #0f0101;
+}
+
+.nav:hover{
+  color: #1abc9c;
+}
+
+.tour2{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15pt;
+  font-weight: 100;
+  color: #e2e2e3;
+  margin-left: 447px;
+}
+
+.slaider-ctrl{
+  position: absolute;
+  border: none;
+  display: inline-block;
+  height: 104px;
+  width: 104px;
+  background-color: #1abc9c;
+}
+
+.slaider-prev{
+  left: 0;
+  top: 60%;
+  transform: translateY(-90%);
+  left: 17%;
+}
+
+.slaider-next{
+  right: 0;
+  top: 60%;
+  transform: translateY(-90%);
+  right: 17%;
+}
+
+button{
+  font-size: 60pt;
+  color: #ffffff;
+}
+
+.opisanie_1 {
+  margin-top:-4px;
+  font-size: 0;
+}
+
+.tovar_1 {
+  display: inline-block;
+  /*padding: 14px 0 13px 14px;*/
+  width: 200px;
+  padding-left: 1px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #323232;
+  color: white;
+
+}
+
+.cena_1 {
+  display: inline-block;
+  padding: 13px 0 13px 0;
+  width: 55px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #8c8c8c;
+  color: white;
+  text-align: center;
+}
+
+/*.tovar:hover {
+  background-color: #1abc9c;
+}*/
+
+.card_1{
+  position: relative;
+  width: 256px;
+  height: 325px;
+}
+
+.overlay_1{
+  position: absolute;
+  width: 235px;
+  height: 261px;
+  background-color: #323232;
+  opacity: 0;
+  top: 13px;
+  left: 10px;
+}
+
+.overlay_icon_1{
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+  top: 78px;
+  left: 34px;
+}
+
+.overlay_icon_1{
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+  top: 78px;
+  left: 34px;
+}
+
+.overlay_icon_2{
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+  top: 78px;
+  left: 94px;
+}
+
+
+.card_1:hover .overlay_1{
+  opacity: 0.3;
+} 
+
+.card_1:hover .tovar_1{
+  background-color: #1abc9c;
+}
+
+.card_1:hover .cena_1{
+  background-color: #7fd9c7;
+}
+
+
+
+
