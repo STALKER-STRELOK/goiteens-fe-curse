@@ -151,8 +151,9 @@ footer{
   font-family: 'Roboto', sans-serif;
   font-size: 15pt;
   font-weight: 100;
-  color: #e2e2e3;
-  margin-left: 447px;
+  color: #ffffff;
+  left: 506px;
+  top: 10px;
 }
 
 .slaider-ctrl{
@@ -238,7 +239,7 @@ button{
   left: 10px;
 }
 
-.overlay_icon_1{
+/*.overlay-icon_1{
   position: absolute;
   display: inline-block;
   width: 50px;
@@ -246,31 +247,59 @@ button{
   background-color: #1abc9c;
   top: 78px;
   left: 34px;
-}
+}*/
 
-.overlay_icon_1{
+.overlay-icon_1{
   position: absolute;
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-color: #1abc9c;
+  background-color: #323232;
   top: 78px;
   left: 34px;
+  border: solid 2px;
+  border-color: #ffffff;
 }
 
-.overlay_icon_2{
+.overlay-icon_2{
   position: absolute;
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-color: #1abc9c;
+  background-color: #323232;
   top: 78px;
   left: 94px;
+  border: solid 2px;
+  border-color: #ffffff;
 }
 
+.overlay-icon_3{
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #323232;
+  top: 78px;
+  left: 154px;
+  border: solid 2px;
+  border-color: #ffffff;
+}
+
+.overlay-icon_4{
+  position: absolute;
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  background-color: #323232;
+  top: 136px;
+  left: 34px;
+  border: solid 2px;
+  border-color: #ffffff;
+  
+}
 
 .card_1:hover .overlay_1{
-  opacity: 0.3;
+  opacity: 0.50;
 } 
 
 .card_1:hover .tovar_1{
@@ -281,6 +310,48 @@ button{
   background-color: #7fd9c7;
 }
 
+.art-1{
+  position: relative;
+  width: 25px;
+  height: 26px;
+  top: 13px;
+  left: 12px;
+}
 
+.art-2{
+  position: relative;
+  width: 25px;
+  height: 26px;
+  top: 12px;
+  left: 13px;
+}
 
+.art-3{
+  position: relative;
+  width: 25px;
+  height: 26px;
+  top: 9px;
+  bottom: 10px;
+  left: 12px;
+}
+
+.art-4{
+  position: relative;
+  width: 25px;
+  height: 26px;
+  top: 12px;
+  left: 11px;
+}
+
+.vosmojmost{
+  position: absolute;
+  right: 16px;
+  left: 59px;
+  top: 18px;
+  bottom: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9pt;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
 
