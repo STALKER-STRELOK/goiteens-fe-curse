@@ -18,6 +18,11 @@
     font-weight: 300;
   }
 
+  .logo_1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+
   .logo::first-letter{
     color: #1abc9c;
     font-family: 'Roboto', sans-serif;
@@ -52,7 +57,7 @@
   padding: 5px;
   border: solid 1px white; 
   padding-top: 267px;
-  padding-bottom: 267px;
+  padding-bottom: 255px;
   background-repeat: no-repeat;
 }
 
@@ -152,8 +157,9 @@ footer{
   font-size: 15pt;
   font-weight: 100;
   color: #ffffff;
-  left: 506px;
+  left: 449px;
   top: 10px;
+  width: 467px;
 }
 
 .slaider-ctrl{
@@ -185,13 +191,11 @@ button{
 }
 
 .opisanie_1 {
-  margin-top:-4px;
   font-size: 0;
 }
 
 .tovar_1 {
   display: inline-block;
-  /*padding: 14px 0 13px 14px;*/
   width: 200px;
   padding-left: 1px;
   padding-top: 13px;
@@ -219,35 +223,145 @@ button{
   text-align: center;
 }
 
-/*.tovar:hover {
-  background-color: #1abc9c;
-}*/
+.opisanie_2 {
+  font-size: 0;
+}
+
+.tovar_2 {
+  display: inline-block;
+  width: 200px;
+  padding-left: 1px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #323232;
+  color: white;
+
+}
+
+.cena_2 {
+  display: inline-block;
+  padding: 13px 0 13px 0;
+  width: 55px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #8c8c8c;
+  color: white;
+  text-align: center;
+}
+
+.opisanie_3 {
+  font-size: 0;
+}
+
+.tovar_3 {
+  display: inline-block;
+  width: 200px;
+  padding-left: 1px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #323232;
+  color: white;
+
+}
+
+.cena_3 {
+  display: inline-block;
+  padding: 13px 0 13px 0;
+  width: 55px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #8c8c8c;
+  color: white;
+  text-align: center;
+}
+
+.opisanie_4 {
+  font-size: 0;
+}
+
+.tovar_4 {
+  display: inline-block;
+  width: 200px;
+  padding-left: 1px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #323232;
+  color: white;
+
+}
+
+.cena_4 {
+  display: inline-block;
+  padding: 13px 0 13px 0;
+  width: 55px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #8c8c8c;
+  color: white;
+  text-align: center;
+}
 
 .card_1{
-  position: relative;
+  display: inline-block;
+  position: absolute;
   width: 256px;
-  height: 325px;
+  bottom: 30px;
+}
+
+  .card_2{
+  display: inline-block;
+  position: absolute;
+  width: 256px;
+  bottom: 30px;
+  left: 286px;
+}
+
+.card_3{
+  display: inline-block;
+  position: absolute;
+  width: 256px;
+  bottom: 30px;
+  right: 286px;
+}
+
+  .card_4{
+  display: inline-block;
+  position: absolute;
+  width: 256px;
+  bottom: 30px;
+  right: 0px;
 }
 
 .overlay_1{
   position: absolute;
   width: 235px;
-  height: 261px;
+  height: 262px;
   background-color: #323232;
   opacity: 0;
   top: 13px;
   left: 10px;
 }
-
-/*.overlay-icon_1{
-  position: absolute;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-color: #1abc9c;
-  top: 78px;
-  left: 34px;
-}*/
 
 .overlay-icon_1{
   position: absolute;
@@ -258,7 +372,7 @@ button{
   top: 78px;
   left: 34px;
   border: solid 2px;
-  border-color: #ffffff;
+  border-color: #ffffff;  
 }
 
 .overlay-icon_2{
@@ -295,7 +409,6 @@ button{
   left: 34px;
   border: solid 2px;
   border-color: #ffffff;
-  
 }
 
 .card_1:hover .overlay_1{
@@ -310,27 +423,60 @@ button{
   background-color: #7fd9c7;
 }
 
+.card_2:hover .overlay_1{
+  opacity: 0.50;
+} 
+
+.card_2:hover .tovar_2{
+  background-color: #1abc9c;
+}
+
+.card_2:hover .cena_2{
+  background-color: #7fd9c7;
+}
+
+.card_3:hover .overlay_1{
+  opacity: 0.50;
+} 
+
+.card_3:hover .tovar_3{
+  background-color: #1abc9c;
+}
+
+.card_3:hover .cena_3{
+  background-color: #7fd9c7;
+}
+
+.card_4:hover .overlay_1{
+  opacity: 0.50;
+} 
+
+.card_4:hover .tovar_4{
+  background-color: #1abc9c;
+}
+
+.card_4:hover .cena_4{
+  background-color: #7fd9c7;
+}
+
 .art-1{
   position: relative;
   width: 25px;
-  height: 26px;
-  top: 13px;
+  top: 14px;
   left: 12px;
 }
 
 .art-2{
   position: relative;
   width: 25px;
-  height: 26px;
-  top: 12px;
+  top: 14px;
   left: 13px;
 }
 
 .art-3{
   position: relative;
   width: 25px;
-  height: 26px;
-  top: 9px;
+  top: 12px;
   bottom: 10px;
   left: 12px;
 }
@@ -338,7 +484,6 @@ button{
 .art-4{
   position: relative;
   width: 25px;
-  height: 26px;
   top: 12px;
   left: 11px;
 }
@@ -355,3 +500,52 @@ button{
   font-weight: 400;
 }
 
+.spisok{
+  position: absolute;
+  width: 1110px;
+  margin-left: 204px;
+  height: 325px; 
+  bottom: 20px;
+}
+
+.itemimg{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-icon_1:hover{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.overlay-icon_2:hover{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.overlay-icon_3:hover{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.overlay-icon_4:hover{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.sl1{
+  position: absolute;
+  left: 42px;
+  top: 30px;
+  right: 40px;
+  bottom: 35px;
+}
+
+.sl2{
+  position: absolute;
+  right: 42px;
+  top: 30px;
+  left: 40px;
+  bottom: 35px;
+}
