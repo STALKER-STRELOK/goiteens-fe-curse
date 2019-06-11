@@ -82,6 +82,7 @@
   background: #54a18f; 
   border: solid 1px rgba(255, 255, 255, 0); 
 }
+
 .tour:after {
   position: absolute;
   top: 0;
