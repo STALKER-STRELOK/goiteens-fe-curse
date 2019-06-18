@@ -3,17 +3,16 @@
     padding: 0;
   }
   
-  .header-container {
-    width: 1519px;
-    height: 91px;
+  .container {
+    position: reletive;
+    width: 1110px;
     margin: 0 auto;
   }
   
   .logo {
     display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 226px;
+    margin-top: 25px;
+    margin-bottom: 32px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
   }
@@ -34,20 +33,18 @@
   }
   
   .navigation {
-    margin-left: 560px;
-    margin-top: 34px;
-    margin-bottom: 34px;
+    width: 467px;
+    display: flex;
+    justify-content: space-between;
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
+    margin-bottom: 38px;
+    margin-left: 545px;
   }
   
   .navigation li {
-    display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
-    margin-left: 30px; 
-    text-align: center;
   }
 
 .content{
@@ -82,6 +79,7 @@
   background: #54a18f; 
   border: solid 1px rgba(255, 255, 255, 0); 
 }
+
 .tour:after {
   position: absolute;
   top: 0;
@@ -372,6 +370,9 @@ button{
   left: 34px;
   border: solid 2px;
   border-color: #ffffff;  
+  background-image: url(./img/1@1X_1.png);
+  background-repeat: no-repeat;
+  background-position: top 14px left 12px;
 }
 
 .overlay-icon_2{
@@ -384,7 +385,11 @@ button{
   left: 94px;
   border: solid 2px;
   border-color: #ffffff;
+  background-image: url(./img/2@1X_2.png);
+  background-repeat: no-repeat;
+  background-position: top 14px left 13px;
 }
+
 
 .overlay-icon_3{
   position: absolute;
@@ -396,7 +401,11 @@ button{
   left: 154px;
   border: solid 2px;
   border-color: #ffffff;
+  background-image: url(./img/3@1X_3.png);
+  background-repeat: no-repeat;
+  background-position: top 12px left 12px;
 }
+
 
 .overlay-icon_4{
   position: absolute;
@@ -408,7 +417,11 @@ button{
   left: 34px;
   border: solid 2px;
   border-color: #ffffff;
+  background-image: url(./img/4@1X_4.png);
+  background-repeat: no-repeat;
+  background-position: top 12px left 11px;
 }
+
 
 .card_1:hover .overlay_1{
   opacity: 0.50;
@@ -458,7 +471,7 @@ button{
   background-color: #7fd9c7;
 }
 
-.art-1{
+/*.art-1{
   position: relative;
   width: 25px;
   top: 14px;
@@ -485,7 +498,7 @@ button{
   width: 25px;
   top: 12px;
   left: 11px;
-}
+}*/
 
 .vosmojmost{
   position: absolute;
