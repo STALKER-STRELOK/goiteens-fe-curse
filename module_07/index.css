@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face { 
+  font-family: 'Wisdom-Script';  
+  src: local('Wisdom-Script'), url('https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff') format('woff'); 
+}
+
+@font-face {
+   font-family: 'Montserrat-Regular';
+   src: local('Montserrat-Regular'), url('https://nomail.com.ua/files/woff/07689d4eaaa3d530d58826b5d7f84735.woff') format('woff'); 
+}
+
+@font-face {
+   font-family: 'Roboto-Bold';
+   src: local('Roboto-Bold'), url('https://nomail.com.ua/files/woff/7cb27a07c02e597b8a8f984a2bb32d42.woff') format('woff'); 
+}
+
+@font-face {
+   font-family: 'Montserrat-Bold';
+   src: local('Montserrat-Bold'), url('https://nomail.com.ua/files/woff/d3085f686df272f9e1a267cc69b2d24f.woff') format('woff'); 
+}
+
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+  }
+  
+  .page-nav{
+    display: flex;
+    min-height: 66px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 126px;
+  }
+  
+  .navig{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #222222;
+  }
+
+  .navig:hover{
+    color: #fed136;
+  }
+  
+  .logo{
+    font-family: 'Wisdom-Script';
+  }
+
+  .logo_1{
+    text-decoration: none;
+    color: #fed136;
+  }
+  
+  .navigation{
+    display: flex;
+    list-style: none;
+    width: 490px;
+    justify-content: space-between;
+  }
+  
+  .navigation li{
+    padding: 0;
+  }
+
+  
+
+  /*CONTENT*/
+
+  .content{
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 122px;
+  }
+  
+  .titelse{
+    position: relative;
+    width: 940px;
+    height: 114px;
+    margin: 0 auto;
+  }
+  
+  .title_1{
+    font-family: 'Roboto-Bold';
+    position: absolute;
+    left: 412px;
+    display: inline-block;
+    color: #333333;
+  }
+  
+  .content_name_1{
+    position: absolute;
+    left: 306px;
+    top: 44.800px;
+    display: inline-block;
+    color: #333333;
+  }
+
+  .main_content{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .content_block{
+    position: relative;
+    width: 274px; 
+    height: 220px;
+  }
+
+  img{
+    border: 2px solid yellow;
+    border-radius: 50%;
+    padding: 17px;
+    position: absolute;
+    left: 98px;
+  }
+
+  .block_title{
+    position: absolute;
+    top: 102px;
+    left: 68px;
+  }
+
+  .block_title_2{
+    position: absolute;
+    top: 102px;
+    left: 53px;
+  }
+
+  .block_title_3{
+    position: absolute;
+    top: 102px;
+    left: 68px;
+  }
+
+  .block_info{
+    position: absolute;
+    top: 151px;
+  }
+
+  /*FOOTER*/
+
+  footer{
+    width: 1519.2px;
+    height: 677px;
+    background-color: #222222;
+    position: relative;
+  }
+
+  .titelse_2{
+    position: relative;
+    width: 940px;
+    height: 114px;
+    margin: 0 auto;
+  }
+  
+  .title_2{
+    font-family: 'Roboto-Bold';
+    position: absolute;
+    left: 340px;
+    top: 110px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 40pt;
+  }
+  
+  .content_name_2{
+    position: absolute;
+    left: 290px;
+    top: 210.800px;
+    font-size: 16pt;
+    display: inline-block;
+    color: #777777;
+  }
+
+  form{
+
+    width: 940px;
+    height: 308px;
+    position: absolute;
+    top: 254px;
+    left: 289px;
+  }
+
+  .main_forms{
+    width: 940px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  }
+
+  .forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 455px;
+    height: 210px;
+  }
+
+  .big_form{
+    width: 455px;
+    height: 210px;
+  }
+
+  .big{
+    width: 455px;
+    height: 210px;
+    border-radius: 3px;
+    border: 2px white;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+  }
+
+  input{
+    width: 455px;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px white;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+  }
+
+  .input:valid{
+    outline:green;
+  }
+  .input:invalid{
+    outline:red;
+  } 
+
+  .button{
+    width: 940px;
+    height: 66px;
+    position: absolute;
+    top: 240px;
+  }
+
+  .input_button{
+    width: 240px;
+    height: 66px;
+    border-radius: 3px;
+    border: 2px white;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    background-color: #fed136;
+    position: absolute;
+    left: 350px;
+  }
