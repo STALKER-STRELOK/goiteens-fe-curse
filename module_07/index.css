@@ -173,7 +173,7 @@
   .content_name_2{
     position: absolute;
     left: 290px;
-    top: 210.800px;
+    top: 178.800px;
     font-size: 16pt;
     display: inline-block;
     color: #777777;
@@ -227,11 +227,11 @@
     font-weight: 700;
   }
 
-  .input:valid{
-    outline:green;
+  input:valid{
+    outline: 3px solid green;
   }
-  .input:invalid{
-    outline:red;
+  input:invalid{
+    outline: 3px solid red;
   } 
 
   .button{
