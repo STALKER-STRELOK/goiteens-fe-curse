@@ -11,14 +11,23 @@
   height: 542px;
   }
 
-  .site_navig{
-    width: 152px;
-    margin: 0;
+  .header_navi{
+    width: 177px;
+    height: 171px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    padding-top: 38px;
+    margin: 0 auto;
+    padding-bottom: 22px;
+  }
+
+  .site_navig{
+    width: 152px;
+    display: flex;
+    justify-content: space-between;  
     list-style: none;
-    padding-bottom: px;
-    padding-top: px;
+    padding-left: 12.5px;
   } 
 
   .nav_1{
@@ -40,21 +49,19 @@
 
   .titlse{
     width: 280px;
-    position: relative;
     margin: 0 auto;
   }
 
   .title {
     font-size: 20px;
+    height: 36px;
     text-decoration: none;
     display: block;
-    margin: 0 auto 39px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
     color: white;
     text-transform: uppercase;
-    display: block;
   }
 
   .sub_title{
@@ -416,7 +423,7 @@
     padding: 0;
     margin: 0;
   }
-  
+
   .titlse{
     width: 477px;
     position: relative;
