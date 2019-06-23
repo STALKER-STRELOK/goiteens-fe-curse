@@ -381,7 +381,6 @@
       background: url(./img/фон\ на\ вёрстку.jpg),linear-gradient(to right,rgba(77, 77, 77, 0.7)100%,rgba(77, 77, 77, 0.7)100%);
       background-size: cover;
       height: 700px;
-      width: 768px;
     }
 
     .site_navig{
