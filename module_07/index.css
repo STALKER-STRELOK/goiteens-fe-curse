@@ -227,10 +227,17 @@
     font-weight: 700;
   }
 
-  input:valid{
+  .inputer:valid{
     outline: 3px solid green;
   }
-  input:invalid{
+  .inputer:invalid{
+    outline: 3px solid red;
+  } 
+
+  .big:valid{
+    outline: 3px solid green;
+  }
+  .big:invalid{
     outline: 3px solid red;
   } 
 
