@@ -24,15 +24,42 @@ img, h1 {
 }
 
 .navigation {
-    margin-top: 75px;
-    margin-bottom: 104px;
+    width: 573px;
+    padding-top: 75px;
+    padding-bottom: 104px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .navigation li{
-    display:inline-block;
+    display:block;
     list-style-type: none;
-    margin-right: 60px;
-    margin-left: 60px; 
+}
+
+.nav_1{
+    width: 97px;
+}
+
+.nav_2{
+    width: 119px;
+}
+
+.nav_3{
+    width: 59px;
+}
+
+.nav_4{
+    width: 71px;
+}
+
+main{
+    width: 902px;
+    height: 1704px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .f{ 
@@ -44,21 +71,15 @@ img, h1 {
 .section{
     display:inline-block;
     width: 422px; 
-    margin: 7px;
-    margin-bottom: 105px;
-    margin-left: 200px;
-    padding: 1px; 
 }
 
 .f1{
-    margin-top: 80px;
     margin-bottom: 0px;
     margin-left: 0px; 
     text-align: center;
 }
 
 .f2{
-    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     text-align: left;
@@ -97,19 +118,27 @@ footer{
 }
 
 .LM{
-    border: 2px solid #626262; 
-    background: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-top: 77px;
-    margin-bottom: 77px;
-    margin-left: 649.6px;
-    margin-right: 649.6px;
-}
+    width: 164px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+    border: 1px solid;
+    font-family: 'PlayFair', serif;
+    font-size: 17px;
+    
+} 
 
 p{
+    margin-top: 41px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    color: #626262;
+}
+
+.text{
     margin-top: 41px;
     font-family: 'Playfair Display', serif;
     font-size: 14pt;
@@ -122,13 +151,6 @@ h2{
     font-size: 25pt;
     color: #626262;
     font-weight: 400;
-}
-
-p{
-    margin-top: 31px;
-    font-family: 'Ubuntu', sans-serif;;
-    font-weight: 300;
-    color: #626262;
 }
 
 a{

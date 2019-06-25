@@ -2,3 +2,15 @@
    Import partials below
 */
 @import './normalize';
+header {
+   position: relative;
+   background-image: url(../images/Layer\ 15@1X.png);
+   margin-bottom: 50px;
+}
+
+
+@media  (-webkit-mindevice-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
+   header {
+      background-image: url(../images/Layer\ 15@2X.png);
+   }
+}
