@@ -370,6 +370,8 @@ header {
     font-weight: 400;
     font-size: 14pt;
     color: #333333;
+    text-align: center;
+    text-transform: uppercase;
 }
   
 .work{
@@ -377,6 +379,8 @@ header {
     font-weight: 300;
     font-size: 12pt;
     color: rgba(153, 153, 153, 255);
+    text-align: center;
+    text-transform: uppercase;
   }
 
 footer{
