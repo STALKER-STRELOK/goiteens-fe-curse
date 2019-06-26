@@ -48,8 +48,7 @@
   }
 
 .content{
-  /*width: 1515px; 
-  height: 590px;*/
+  position: relative;
   background-image: url(./img/slide4@1X.png);
   padding: 5px;
   border: solid 1px white; 
@@ -68,32 +67,10 @@
   text-align: center;
   position: relative;
 }
-
-/*.tour:before {
-  position: absolute;
-  top: 0;
-  left: -20px;
-  content: "<";
-  height: 102px;
-  width: 102px;
-  background: #54a18f; 
-  border: solid 1px rgba(255, 255, 255, 0); 
-}
-
-.tour:after {
-  position: absolute;
-  top: 0;
-  right: 20px;
-  content: ">";
-  height: 102px;
-  width: 102px;
-  background: #54a18f; 
-  border: solid 1px rgba(255, 255, 255, 0); 
-} */
  
 .mid{
   width: 1519px;
-  height: 676px;
+  height: 706px;
   background-color: #e9f0fd;
   position: relative;
 }
@@ -113,9 +90,8 @@
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin: 30px 0 20px 0;
-  margin-left: 580px;
-  
+  margin: auto;
+  margin-top: 32px;
 }
 
 footer{
@@ -319,35 +295,10 @@ button{
   text-align: center;
 }
 
-.card_1{
+.card{
   display: inline-block;
-  position: absolute;
   width: 256px;
   bottom: 30px;
-}
-
-  .card_2{
-  display: inline-block;
-  position: absolute;
-  width: 256px;
-  bottom: 30px;
-  left: 286px;
-}
-
-.card_3{
-  display: inline-block;
-  position: absolute;
-  width: 256px;
-  bottom: 30px;
-  right: 286px;
-}
-
-  .card_4{
-  display: inline-block;
-  position: absolute;
-  width: 256px;
-  bottom: 30px;
-  right: 0px;
 }
 
 .overlay_1{
@@ -365,11 +316,15 @@ button{
   display: inline-block;
   width: 50px;
   height: 50px;
-  background-color: #323232;
   top: 78px;
   left: 34px;
   border: solid 2px;
   border-color: #ffffff;  
+}
+
+.butt_1{
+  width: 50px;
+  height: 50px; 
   background-image: url(./img/1@1X_1.png);
   background-repeat: no-repeat;
   background-position: top 14px left 12px;
@@ -385,11 +340,15 @@ button{
   left: 94px;
   border: solid 2px;
   border-color: #ffffff;
+}
+
+.butt_2{
+  width: 50px;
+  height: 50px; 
   background-image: url(./img/2@1X_2.png);
   background-repeat: no-repeat;
   background-position: top 14px left 13px;
 }
-
 
 .overlay-icon_3{
   position: absolute;
@@ -401,11 +360,15 @@ button{
   left: 154px;
   border: solid 2px;
   border-color: #ffffff;
+}
+
+.butt_3{
+  width: 50px;
+  height: 50px; 
   background-image: url(./img/3@1X_3.png);
   background-repeat: no-repeat;
   background-position: top 12px left 12px;
 }
-
 
 .overlay-icon_4{
   position: absolute;
@@ -417,88 +380,63 @@ button{
   left: 34px;
   border: solid 2px;
   border-color: #ffffff;
+}
+
+.butt_4{
+  width: 50px;
+  height: 50px; 
   background-image: url(./img/4@1X_4.png);
   background-repeat: no-repeat;
   background-position: top 12px left 11px;
 }
 
-
-.card_1:hover .overlay_1{
+.card:hover .overlay_1{
   opacity: 0.50;
 } 
 
-.card_1:hover .tovar_1{
+.card:hover .tovar_1{
   background-color: #1abc9c;
 }
 
-.card_1:hover .cena_1{
+.card:hover .cena_1{
   background-color: #7fd9c7;
 }
 
-.card_2:hover .overlay_1{
+.card:hover .overlay_1{
   opacity: 0.50;
 } 
 
-.card_2:hover .tovar_2{
+.card:hover .tovar_2{
   background-color: #1abc9c;
 }
 
-.card_2:hover .cena_2{
+.card:hover .cena_2{
   background-color: #7fd9c7;
 }
 
-.card_3:hover .overlay_1{
+.card:hover .overlay_1{
   opacity: 0.50;
 } 
 
-.card_3:hover .tovar_3{
+.card:hover .tovar_3{
   background-color: #1abc9c;
 }
 
-.card_3:hover .cena_3{
+.card:hover .cena_3{
   background-color: #7fd9c7;
 }
 
-.card_4:hover .overlay_1{
+.card:hover .overlay_1{
   opacity: 0.50;
 } 
 
-.card_4:hover .tovar_4{
+.card:hover .tovar_4{
   background-color: #1abc9c;
 }
 
-.card_4:hover .cena_4{
+.card:hover .cena_4{
   background-color: #7fd9c7;
 }
-
-/*.art-1{
-  position: relative;
-  width: 25px;
-  top: 14px;
-  left: 12px;
-}
-
-.art-2{
-  position: relative;
-  width: 25px;
-  top: 14px;
-  left: 13px;
-}
-
-.art-3{
-  position: relative;
-  width: 25px;
-  top: 12px;
-  bottom: 10px;
-  left: 12px;
-}
-
-.art-4{
-  position: relative;
-  width: 25px;
-  top: 12px;
-  left: 11px;
-}*/
 
 .vosmojmost{
   position: absolute;
@@ -513,11 +451,13 @@ button{
 }
 
 .spisok{
-  position: absolute;
+  position: relative;
   width: 1110px;
-  margin-left: 204px;
-  height: 325px; 
-  bottom: 20px;
+  height: 331px; 
+  margin: 0 auto;
+  bottom: 54px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .itemimg{
