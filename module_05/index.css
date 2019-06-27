@@ -163,7 +163,7 @@ button{
   color: #ffffff;
 }
 
-.opisanie_1 {
+.opisanie_1{
   font-size: 0;
 }
 
@@ -295,13 +295,61 @@ button{
   text-align: center;
 }
 
-.card{
+.card_1{
+  position: relative;
   display: inline-block;
   width: 256px;
-  bottom: 30px;
+}
+
+.card_2{
+  position: relative;
+  display: inline-block;
+  width: 256px;
+}
+
+.card_3{
+  position: relative;
+  display: inline-block;
+  width: 256px;
+}
+
+.card_4{
+  position: relative;
+  display: inline-block;
+  width: 256px;
 }
 
 .overlay_1{
+  position: absolute;
+  width: 235px;
+  height: 262px;
+  background-color: #323232;
+  opacity: 0;
+  top: 13px;
+  left: 10px;
+}
+
+.overlay_2{
+  position: absolute;
+  width: 235px;
+  height: 262px;
+  background-color: #323232;
+  opacity: 0;
+  top: 13px;
+  left: 10px;
+}
+
+.overlay_3{
+  position: absolute;
+  width: 235px;
+  height: 262px;
+  background-color: #323232;
+  opacity: 0;
+  top: 13px;
+  left: 10px;
+}
+
+.overlay_4{
   position: absolute;
   width: 235px;
   height: 262px;
@@ -328,6 +376,8 @@ button{
   background-image: url(./img/1@1X_1.png);
   background-repeat: no-repeat;
   background-position: top 14px left 12px;
+  background-color: transparent;
+  border: 0;
 }
 
 .overlay-icon_2{
@@ -348,6 +398,8 @@ button{
   background-image: url(./img/2@1X_2.png);
   background-repeat: no-repeat;
   background-position: top 14px left 13px;
+  background-color: transparent;
+  border: 0;
 }
 
 .overlay-icon_3{
@@ -368,6 +420,8 @@ button{
   background-image: url(./img/3@1X_3.png);
   background-repeat: no-repeat;
   background-position: top 12px left 12px;
+  background-color: transparent;
+  border: 0;
 }
 
 .overlay-icon_4{
@@ -387,54 +441,56 @@ button{
   height: 50px; 
   background-image: url(./img/4@1X_4.png);
   background-repeat: no-repeat;
-  background-position: top 12px left 11px;
+  background-position: top 12px left 10px;
+  background-color: transparent;
+  border: 0;
 }
 
-.card:hover .overlay_1{
+.card_1:hover .overlay_1{
   opacity: 0.50;
 } 
 
-.card:hover .tovar_1{
+.card_1:hover .tovar_1{
   background-color: #1abc9c;
 }
 
-.card:hover .cena_1{
+.card_1:hover .cena_1{
   background-color: #7fd9c7;
 }
 
-.card:hover .overlay_1{
+.card_2:hover .overlay_2{
   opacity: 0.50;
 } 
 
-.card:hover .tovar_2{
+.card_2:hover .tovar_2{
   background-color: #1abc9c;
 }
 
-.card:hover .cena_2{
+.card_2:hover .cena_2{
   background-color: #7fd9c7;
 }
 
-.card:hover .overlay_1{
+.card_3:hover .overlay_3{
   opacity: 0.50;
 } 
 
-.card:hover .tovar_3{
+.card_3:hover .tovar_3{
   background-color: #1abc9c;
 }
 
-.card:hover .cena_3{
+.card_3:hover .cena_3{
   background-color: #7fd9c7;
 }
 
-.card:hover .overlay_1{
+.card_4:hover .overlay_4{
   opacity: 0.50;
 } 
 
-.card:hover .tovar_4{
+.card_4:hover .tovar_4{
   background-color: #1abc9c;
 }
 
-.card:hover .cena_4{
+.card_4:hover .cena_4{
   background-color: #7fd9c7;
 }
 
