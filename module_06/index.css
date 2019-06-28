@@ -9,6 +9,7 @@
 }
 
 .page-nav{
+  padding-top: 28px;
   display: flex;
   min-height: 66px;
   align-items: center;
@@ -161,7 +162,7 @@
 }
 
 .team_list{
-  position: absolute;
+  position: relative;
   width: 1200px;
   display: flex;
   justify-content: space-between;
@@ -179,6 +180,51 @@
   height: 100%;
   background-image: linear-gradient(rgb(212, 62, 62), rgb(206, 189, 93));
   opacity: 0;
+}
+
+.icon_list{
+  width: 224px;
+  height: 56px;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 209px;
+}
+
+.icon_li{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  position: relative;
+}
+
+.icon_img_1{
+  position: absolute;
+  left: 23px;
+  top: 15px;
+}
+
+.icon_img_2{
+  position: absolute;
+  left: 15px;
+  top: 17px;
+}
+
+.icon_img_3{
+  position: absolute;
+  left: 17px;
+  top: 15px;
+}
+
+.icon_img_4{
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.icon_li:hover{
+  background-color: #95e1d3;
 }
 
 .worker{
