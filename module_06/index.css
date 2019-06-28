@@ -21,12 +21,20 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14pt;
+  color: #95e1d3;
+  text-decoration: none;
 }
 
-.logo{
+.navig:hover{
+  color: #f6a6a6;
+}
+
+.logo_1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30pt;
+  color: #95e1d3;
+  text-decoration: none;
 }
 
 .navigation{
@@ -40,11 +48,18 @@
   padding: 0;
 }
 
-.titelse{
+.titlse{
   position: relative;
-  width: 1200px;
-  height: 114px;
+  width: 345px;
+  /*height: 114px;*/
   margin: 0 auto;
+}
+
+.titlse_2{
+  width: 941px;
+  height: 200px;
+  margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .content_info{
@@ -53,9 +68,7 @@
 }
 
 .title_1{
-  position: absolute;
-  left: 466px;
-  display: inline-block;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   font-size: 24pt;
@@ -63,24 +76,22 @@
 }
 
 .content_name_1{
-  position: absolute;
-  left: 403px;
-  top: 44.800px;
-  display: inline-block;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30pt;
   color: #333333;
+  padding-top: 22px;
 }
 
-.content_name::after {
+.content_name_1::after {
   content:"";
   display: block;
   width: 60px;
   height: 3px;
   background-color: #f38181;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 42px;
 }
 
 .content_block_1{
@@ -141,9 +152,7 @@
 
 
 .title_2{
-  position: absolute;
-  left: 490px;
-  display: inline-block;
+  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   font-size: 24pt;
@@ -151,15 +160,34 @@
 }
 
 .content_name_2{
-  position: absolute;
-  top: 44.800px;
-  left: 445px;
-  display: inline-block;
+  text-align: center;
+  padding-top: 23px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 30pt;
   color: #333333;
 }
+
+.content_name_2::after{
+  content:"";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 0 auto;
+  margin-top: 42px;
+}
+
+.team_text{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #b6b6b6;
+  padding-top: 36px; 
+}
+
+
 
 .team_list{
   position: relative;
@@ -178,9 +206,11 @@
 .work_overlay{
   width: 383px;
   height: 100%;
-  background-image: linear-gradient(rgb(212, 62, 62), rgb(206, 189, 93));
+  background: linear-gradient( to bottom,rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%   );
   opacity: 0;
 }
+
+
 
 .icon_list{
   width: 224px;
@@ -192,38 +222,55 @@
   padding-top: 209px;
 }
 
-.icon_li{
+.icon_li_1{
   width: 56px;
   height: 56px;
   background-color: #fce38a;
-  position: relative;
+  background-image: url(./img/facebook@1X.png);
+  background-repeat: no-repeat;
+  background-position: left 23px top 15px;
 }
 
-.icon_img_1{
-  position: absolute;
-  left: 23px;
-  top: 15px;
+.icon_li_2{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  background-image: url(./img/twitter@1X.png);
+  background-repeat: no-repeat;
+  background-position: left 15px top 17px;
 }
 
-.icon_img_2{
-  position: absolute;
-  left: 15px;
-  top: 17px;
+.icon_li_3{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  background-image: url(./img/pinterest@1X.png);
+  background-repeat: no-repeat;
+  background-position: left 17px top 15px;
 }
 
-.icon_img_3{
-  position: absolute;
-  left: 17px;
-  top: 15px;
+.icon_li_4{
+  width: 56px;
+  height: 56px;
+  background-color: #fce38a;
+  background-image: url(./img/instagram@1X.png);
+  background-repeat: no-repeat;
+  background-position: left 15px top 15px;
 }
 
-.icon_img_4{
-  position: absolute;
-  left: 15px;
-  top: 15px;
+.icon_li_1:hover{
+  background-color: #95e1d3;
 }
 
-.icon_li:hover{
+.icon_li_2:hover{
+  background-color: #95e1d3;
+}
+
+.icon_li_3:hover{
+  background-color: #95e1d3;
+}
+
+.icon_li_4:hover{
   background-color: #95e1d3;
 }
 
@@ -247,12 +294,12 @@
 }
 
 .card:hover .work_overlay{
-  opacity: 0.50;
+  opacity: 1;
 }
 
 .card:hover .worker_img{
-    left: 0px;
-    top: 0px; 
+    left: 0;
+    top: 0; 
 }
 
 .worker_name{
@@ -325,7 +372,6 @@
 .footer {
   position: relative;
   width: 1200px;
-  top: 632px;
 }
 
 .foot-text {

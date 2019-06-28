@@ -117,31 +117,23 @@
     border: 2px solid yellow;
     border-radius: 50%;
     padding: 17px;
-    position: absolute;
-    left: 98px;
   }
 
   .block_title{
-    position: absolute;
-    top: 102px;
-    left: 68px;
+    text-align: center;
   }
 
   .block_title_2{
-    position: absolute;
-    top: 102px;
-    left: 53px;
+    text-align: center;
   }
 
   .block_title_3{
-    position: absolute;
-    top: 102px;
-    left: 68px;
+    text-align: center;
   }
 
   .block_info{
-    position: absolute;
-    top: 151px;
+    text-align: center;
+    width: 274px;
   }
 
   /*FOOTER*/
