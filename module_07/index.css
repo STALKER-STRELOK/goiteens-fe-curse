@@ -41,6 +41,7 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #222222;
+    display: block;
   }
 
   .navig:hover{
@@ -113,27 +114,65 @@
     height: 220px;
   }
 
-  img{
+  .circle_1{
+    width: 40px;
+    height: 39px;
     border: 2px solid yellow;
     border-radius: 50%;
-    padding: 17px;
+    padding: 12px;
+    margin: 0 auto;
+    background-image: url(./img/Icon-Basket@1X.png);
+    background-repeat: no-repeat;
+    background-position: left 12px top 12px;
+    margin-bottom: 26px;
+  }
+
+  .circle_2{
+    width: 40px;
+    height: 39px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 0 auto;
+    background-image: url(./img/Icon-Laptop@1X.png);
+    background-repeat: no-repeat;
+    background-position: left 10px top 13px;
+    margin-bottom: 26px;
+  }
+
+  .circle_3{
+    width: 40px;
+    height: 39px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 0 auto;
+    background-image: url(./img/Icon-Locked@1X.png);
+    background-repeat: no-repeat;
+    background-position: left 17px top 12px;
+    margin-bottom: 26px;
   }
 
   .block_title{
     text-align: center;
+    padding-bottom: 18px;
   }
 
   .block_title_2{
     text-align: center;
+    padding-bottom: 18px;
   }
 
   .block_title_3{
     text-align: center;
+    padding-bottom: 18px;
   }
 
   .block_info{
+    font-family: 'Roboto Slab';
     text-align: center;
-    width: 274px;
+    color: #777777;
+    font-size: 14px;
   }
 
   /*FOOTER*/
