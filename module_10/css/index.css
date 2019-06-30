@@ -10,6 +10,19 @@ header {
         background-image: url(../img/eagle__@2X.png)
     }
 }
+
+p{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
 .header_img {
     background-image: -webkit-linear-gradient( 315deg, rgba(252, 59, 59, 0.7) 0%, hsla(338.33, 97.06%, 43.22%, 0) 70%), -webkit-linear-gradient(65deg, rgba(245, 253, 169, 1) 10%, hsla(49.48, 96.24%, 47.16%, 0) 80%), -webkit-linear-gradient(135deg, rgba(252, 59, 59, 0.7)  15%, hsla(356.84, 99.13%, 45.5%, 0) 80%), -webkit-linear-gradient(205deg, rgba(245, 253, 169, 0.5) 100%, hsla(38.24, 94.67%, 42.95%, 0) 70%);
     background-image: -o-linear-gradient( 315deg, rgba(252, 59, 59, 0.7) 0%, hsla(338.33, 97.06%, 43.22%, 0) 70%), -o-linear-gradient(65deg, rgba(245, 253, 169, 1) 10%, hsla(49.48, 96.24%, 47.16%, 0) 80%), -o-linear-gradient(135deg, rgba(252, 59, 59, 0.7)  15%, hsla(356.84, 99.13%, 45.5%, 0) 80%), -o-linear-gradient(205deg, rgba(245, 253, 169, 0.5) 100%, hsla(38.24, 94.67%, 42.95%, 0) 70%);
