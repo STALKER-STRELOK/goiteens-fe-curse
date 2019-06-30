@@ -18,7 +18,7 @@ header {
     height: 1000px; 
 }
 
-.logo{
+.nav__logo{
     font-family: 'Montsserat', sans-serif;
     color: white;
     font-size: 18pt;
@@ -26,7 +26,7 @@ header {
     margin-top: 9px;
 }
 
-.navigation{
+.nav__menu{
     width: 1200px;
     height: 37px;
     display: -webkit-box;
@@ -40,7 +40,7 @@ header {
     padding-bottom: 164px;
 }
 
-.list{
+.nav__list{
     width: 620px;
     height: 29px;
     list-style: none;
@@ -108,7 +108,7 @@ header {
     fill: #fce38a;
 }
 
-.titlse{
+.head__titlse{
     width: 802px;
     height: 377px;
     margin: 0 auto;
@@ -125,7 +125,7 @@ header {
     padding-bottom: 126px;
 }
 
-.head_title{
+.head__title{
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     color: white;
@@ -134,7 +134,7 @@ header {
     margin: 0px;
 }
 
-.head_subtitle{
+.head__subtitle{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: white;
@@ -144,7 +144,7 @@ header {
     margin: 0px;
 }
 
-.head_button{
+.head__button{
     width: 160px;
     height: 40px;
     border: solid 4px white;
@@ -168,7 +168,7 @@ header {
     transition: all 500ms ease-in-out;
 }
 
-.head_button:hover, .head_button:focus {
+.head__button:hover, .head_button:focus {
     color: #fce38a;
     width: 168px;
     height: 42px;
@@ -177,7 +177,7 @@ header {
 
 /* TEAM-CONTENT */
 
-.titlse_2{
+.content__titlse{
     width: 310px;
     height: 114px; 
     margin: 0 auto;
@@ -194,7 +194,7 @@ header {
     padding-top: 46px; 
 }
 
-.title_1{
+.content__title{
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 24pt;
@@ -203,7 +203,7 @@ header {
     margin: 0;
     }
 
-.content_name_1{
+.content__name{
     text-align: center;
     text-transform: uppercase;
     margin: 0;
@@ -212,7 +212,7 @@ header {
     font-size: 23pt;
 }
 
-.main_info{
+.content__list{
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -228,7 +228,7 @@ header {
     margin: 0 auto;
   }
 
-.line{
+.content__line{
     display: block;
     content: '';
     height: 3px;
@@ -237,7 +237,7 @@ header {
     margin: 0 auto;
 }
 
-.main_content{
+.content__li{
     width: 320px;
     padding-left: 50px;
     margin-bottom: 102px;
@@ -250,14 +250,14 @@ header {
   }
   
   
-  .text{
+  .content__text{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #999999;
     line-height: 24px;
   }
   
-  .box_title{
+  .content__title{
     font-family: 'Montserrat', sans-serif;
     font-size:14px;
     font-weight: 400;
@@ -266,7 +266,7 @@ header {
     padding-bottom: 15px;
   }
   
-  .icon_img{
+  .content__img{
     position: absolute;
     top: 0;
     left: 0;
@@ -316,7 +316,7 @@ header {
     margin-top: 42px;
 }
 
-.team_list{
+.work__list{
     width: 1213px;
     margin: 0 auto;
     list-style: none;
@@ -328,16 +328,16 @@ header {
     justify-content: space-between;
 }
 
-.worker_img{
+.worker__img{
     margin-bottom: -4px;
 }
-.work_container{
+.work__container{
     -webkit-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
     position: relative;
 }
-.work_container:hover{
+.work__container:hover{
     -webkit-box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
     box-shadow: 10px 10px 0 0 rgba(149, 225, 211, 1);
     opacity: 1;
@@ -345,7 +345,7 @@ header {
     -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
 }
-.worker_menu{
+.worker__menu{
     position: absolute;
     opacity: 0;
     width: 384px;
@@ -360,10 +360,10 @@ header {
     -o-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
 }
-.work_container:hover .worker_menu{
+.work__container:hover .worker__menu{
     opacity: 1;
 }
-.worker_menu_list{
+.worker__menu--list{
     width: 224px;
     margin: 0 auto;
     padding: 0;
@@ -383,7 +383,7 @@ header {
     padding: 15px 20px 15px 23px;
 }
 
-.worker_item{
+.worker__menu--item{
     width: 55px;
     height: 56px;
     background-color: #fce38a;
@@ -392,14 +392,14 @@ header {
     transition: all 500ms ease-in-out;
     cursor: pointer;
 }
-.worker_item:hover {
+.worker__menu--item:hover {
     background-color: rgb(243,129,129);
 }
-.worker_item:hover .ul__li--link path {
+.worker__menu--item:hover .ul__li--link path {
     fill: white;
 }
 
-.worker_name{
+.worker__name{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14pt;
@@ -408,7 +408,7 @@ header {
     text-transform: uppercase;
 }
   
-.work{
+.worker__work{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 12pt;
@@ -433,7 +433,7 @@ hr{
     width: 1200px;
 }
 
-.footer_text{
+.footer__text{
     width: 310px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -443,7 +443,7 @@ hr{
             justify-content: space-between;
 }
   
-.foot-text {
+.footer__text--date {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -451,7 +451,7 @@ hr{
     margin: 0;
 }
   
-.special-text-item {
+.footer__text--item {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
